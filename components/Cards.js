@@ -21,4 +21,6 @@
 //
 // Use your function to create a card for each of the articles, and append each card to the DOM.
 
-//test
+function articleMaker () {
+    
+}
