@@ -15,17 +15,17 @@ const tabsAndTopics = document.querySelector('.tabs .topics')
 axios.get('https://lambda-times-api.herokuapp.com/topics')
 .then((res) =>  {
    const data = res.data.topics
-   console.log(data)
+//    console.log(data)
     data.forEach(text => {
         const newDiv = document.createElement('div')
         newDiv.classList.add('tab') 
         newDiv.textContent = text
         tabsAndTopics.insertAdjacentElement('beforeEnd', newDiv)
     })
- 
 })
 .catch((err) => {
     return err
 })
+
 
 
