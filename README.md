@@ -27,16 +27,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
-
+   The DOM or document object model is an API with a tree-like structure of HTML elements, it represents the whole HTML page
 2. What is an event?
-
+   An event is an action or function one sets on a component or element
 3. What is an event listener?
-
+   An event listener is a function waiting to be invoked when the user does the action it is intended to do, a function with an event that is 'scheduled' to be triggered
 4. Why would we convert a NodeList into an Array?
-
+   So we can iterate through it and target all elements we want
 5. What is a component?
-
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+   A component is a part of a page, it could be a button, header, image, etc
+   You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
 
@@ -84,6 +84,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
