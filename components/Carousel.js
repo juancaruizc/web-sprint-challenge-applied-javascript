@@ -22,3 +22,5 @@
     <div class="right-button"> > </div>
   </div>
 */
+
+const carouselMaker = () => {};
