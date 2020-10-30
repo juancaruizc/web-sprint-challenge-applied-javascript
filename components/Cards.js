@@ -62,6 +62,10 @@ axios
       const cardsContainer = document.querySelector('.cards-container');
 
       cardsContainer.appendChild(newArticle);
+
+      newArticle.addEventListener('click', () => {
+        console.log(article.headline);
+      });
     });
   })
   .catch((err) => {
